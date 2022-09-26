@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+#enter{
+    background: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.content{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content span{
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 5px;
+
+
+}
